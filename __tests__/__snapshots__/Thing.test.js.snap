@@ -1,0 +1,391 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`examples of some things 1`] = `
+<View
+  pointerEvents="box-none"
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    collapsable={true}
+    pointerEvents="box-none"
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#444",
+          "flex": 1,
+          "justifyContent": "center",
+        }
+      }
+    >
+      <TextInput
+        allowFontScaling={true}
+        rejectResponderTermination={true}
+        style={
+          Object {
+            "backgroundColor": "#fff",
+          }
+        }
+        testID="input"
+        underlineColorAndroid="transparent"
+        value="Ada Lovelace"
+      />
+      <View
+        style={
+          Object {
+            "borderRadius": 3,
+          }
+        }
+      >
+        <TouchableOpacity
+          activeOpacity={0.3}
+          disabled={false}
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#2089dc",
+                "borderColor": "#2089dc",
+                "borderRadius": 3,
+                "borderWidth": 0,
+                "flexDirection": "row",
+                "justifyContent": "center",
+                "padding": 8,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "white",
+                  "fontSize": 18,
+                  "paddingBottom": 1,
+                  "paddingTop": 2,
+                  "textAlign": "center",
+                }
+              }
+            >
+              Print Username
+            </Text>
+          </View>
+        </TouchableOpacity>
+      </View>
+      <Text
+        testID="printed-username"
+      >
+        Ada Lovelace
+      </Text>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "bottom": 0,
+        "position": "absolute",
+        "width": "100%",
+      }
+    }
+  >
+    <View
+      pointerEvents="box-none"
+      style={
+        Object {
+          "bottom": "100%",
+          "flexDirection": "row",
+          "justifyContent": "flex-end",
+          "paddingBottom": 4,
+          "paddingEnd": 4,
+          "position": "absolute",
+          "width": "100%",
+        }
+      }
+    >
+      <TouchableWithoutFeedback
+        hitSlop={
+          Object {
+            "bottom": 4,
+            "left": 4,
+            "right": 4,
+            "top": 4,
+          }
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "backgroundColor": "rgba(250, 186, 48, 0.95)",
+              },
+              Object {
+                "borderRadius": 14,
+                "height": 28,
+                "justifyContent": "center",
+                "paddingHorizontal": 12,
+              },
+            ]
+          }
+        >
+          <Text
+            numberOfLines={1}
+            style={
+              Object {
+                "color": "rgba(255, 255, 255, 1)",
+                "fontSize": 12,
+                "includeFontPadding": false,
+                "lineHeight": 16,
+              }
+            }
+          >
+            Dismiss All
+          </Text>
+        </View>
+      </TouchableWithoutFeedback>
+    </View>
+    <ScrollView
+      data={
+        Array [
+          Object {
+            "category": "No native ExponentConstants module found, are you sure the expo-constants's module is linked properly?",
+            "warnings": Array [
+              YellowBoxWarning {
+                "message": Object {
+                  "content": "No native ExponentConstants module found, are you sure the expo-constants's module is linked properly?",
+                  "substitutions": Array [],
+                },
+                "stack": Array [
+                  Object {
+                    "arguments": Array [],
+                    "column": 3,
+                    "file": "F:\\\\src\\\\preset-testing-library-react-native\\\\node_modules\\\\expo-constants\\\\src\\\\Constants.ts",
+                    "lineNumber": 23,
+                    "methodName": "Object.<anonymous>",
+                  },
+                  Object {
+                    "arguments": Array [],
+                    "column": 22,
+                    "file": "F:\\\\src\\\\preset-testing-library-react-native\\\\node_modules\\\\jest-runtime\\\\build\\\\index.js",
+                    "lineNumber": 1034,
+                    "methodName": "Runtime._execModule",
+                  },
+                  Object {
+                    "arguments": Array [],
+                    "column": 12,
+                    "file": "F:\\\\src\\\\preset-testing-library-react-native\\\\node_modules\\\\jest-runtime\\\\build\\\\index.js",
+                    "lineNumber": 678,
+                    "methodName": "Runtime._loadModule",
+                  },
+                  Object {
+                    "arguments": Array [],
+                    "column": 10,
+                    "file": "F:\\\\src\\\\preset-testing-library-react-native\\\\node_modules\\\\jest-runtime\\\\build\\\\index.js",
+                    "lineNumber": 536,
+                    "methodName": "Runtime.requireModule",
+                  },
+                  Object {
+                    "arguments": Array [],
+                    "column": 21,
+                    "file": "F:\\\\src\\\\preset-testing-library-react-native\\\\node_modules\\\\jest-runtime\\\\build\\\\index.js",
+                    "lineNumber": 699,
+                    "methodName": "Runtime.requireModuleOrMock",
+                  },
+                ],
+                "symbolicated": Object {
+                  "error": null,
+                  "stack": null,
+                  "status": "NONE",
+                },
+              },
+            ],
+          },
+          Object {
+            "category": "The \\"UMNativeModulesProxy\\" native module is not exported through NativeModules; verify that @unimodules/react-native-adapter's native code is linked properly",
+            "warnings": Array [
+              YellowBoxWarning {
+                "message": Object {
+                  "content": "The \\"UMNativeModulesProxy\\" native module is not exported through NativeModules; verify that @unimodules/react-native-adapter's native code is linked properly",
+                  "substitutions": Array [],
+                },
+                "stack": Array [
+                  Object {
+                    "arguments": Array [],
+                    "column": 3,
+                    "file": "F:\\\\src\\\\preset-testing-library-react-native\\\\node_modules\\\\@unimodules\\\\react-native-adapter\\\\src\\\\NativeModulesProxy.ts",
+                    "lineNumber": 45,
+                    "methodName": "Object.<anonymous>",
+                  },
+                  Object {
+                    "arguments": Array [],
+                    "column": 22,
+                    "file": "F:\\\\src\\\\preset-testing-library-react-native\\\\node_modules\\\\jest-runtime\\\\build\\\\index.js",
+                    "lineNumber": 1034,
+                    "methodName": "Runtime._execModule",
+                  },
+                  Object {
+                    "arguments": Array [],
+                    "column": 12,
+                    "file": "F:\\\\src\\\\preset-testing-library-react-native\\\\node_modules\\\\jest-runtime\\\\build\\\\index.js",
+                    "lineNumber": 678,
+                    "methodName": "Runtime._loadModule",
+                  },
+                  Object {
+                    "arguments": Array [],
+                    "column": 10,
+                    "file": "F:\\\\src\\\\preset-testing-library-react-native\\\\node_modules\\\\jest-runtime\\\\build\\\\index.js",
+                    "lineNumber": 536,
+                    "methodName": "Runtime.requireModule",
+                  },
+                  Object {
+                    "arguments": Array [],
+                    "column": 21,
+                    "file": "F:\\\\src\\\\preset-testing-library-react-native\\\\node_modules\\\\jest-runtime\\\\build\\\\index.js",
+                    "lineNumber": 699,
+                    "methodName": "Runtime.requireModuleOrMock",
+                  },
+                ],
+                "symbolicated": Object {
+                  "error": null,
+                  "stack": null,
+                  "status": "NONE",
+                },
+              },
+            ],
+          },
+        ]
+      }
+      disableVirtualization={false}
+      horizontal={false}
+      initialNumToRender={10}
+      maxToRenderPerBatch={10}
+      numColumns={1}
+      onEndReachedThreshold={2}
+      removeClippedSubviews={false}
+      scrollEnabled={false}
+      scrollEventThrottle={50}
+      scrollsToTop={false}
+      stickyHeaderIndices={Array []}
+      style={
+        Object {
+          "height": 97,
+        }
+      }
+      updateCellsBatchingPeriod={50}
+      viewabilityConfigCallbackPairs={Array []}
+      windowSize={21}
+    >
+      <View
+        style={null}
+      >
+        <TouchableWithoutFeedback>
+          <View
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "rgba(250, 186, 48, 0.95)",
+                },
+                Object {
+                  "height": 48,
+                  "justifyContent": "center",
+                  "marginTop": 0.5,
+                  "paddingHorizontal": 12,
+                },
+              ]
+            }
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "flex-start",
+                  "flexDirection": "row",
+                }
+              }
+            >
+              <Text
+                numberOfLines={2}
+                style={
+                  Object {
+                    "color": "rgba(255, 255, 255, 1)",
+                    "flex": 1,
+                    "fontSize": 14,
+                    "includeFontPadding": false,
+                    "lineHeight": 18,
+                  }
+                }
+              >
+                <Text>
+                  No native ExponentConstants module found, are you sure the expo-constants's module is linked properly?
+                </Text>
+              </Text>
+            </View>
+          </View>
+        </TouchableWithoutFeedback>
+      </View>
+      <View
+        style={null}
+      >
+        <TouchableWithoutFeedback>
+          <View
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "rgba(250, 186, 48, 0.95)",
+                },
+                Object {
+                  "height": 48,
+                  "justifyContent": "center",
+                  "marginTop": 0.5,
+                  "paddingHorizontal": 12,
+                },
+              ]
+            }
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "flex-start",
+                  "flexDirection": "row",
+                }
+              }
+            >
+              <Text
+                numberOfLines={2}
+                style={
+                  Object {
+                    "color": "rgba(255, 255, 255, 1)",
+                    "flex": 1,
+                    "fontSize": 14,
+                    "includeFontPadding": false,
+                    "lineHeight": 18,
+                  }
+                }
+              >
+                <Text>
+                  The "UMNativeModulesProxy" native module is not exported through NativeModules; verify that @unimodules/react-native-adapter's native code is linked properly
+                </Text>
+              </Text>
+            </View>
+          </View>
+        </TouchableWithoutFeedback>
+      </View>
+    </ScrollView>
+    <SafeAreaView
+      style={
+        Object {
+          "backgroundColor": "rgba(250, 186, 48, 0.95)",
+          "marginTop": 0.5,
+        }
+      }
+    />
+  </View>
+</View>
+`;

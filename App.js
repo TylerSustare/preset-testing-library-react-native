@@ -1,7 +1,7 @@
-import React from "react";
-import Thing from "./src/Example";
-import { StyleSheet, SafeAreaView } from "react-native";
-import { ThemeProvider } from "react-native-elements";
+import React from 'react';
+import Thing from './src/Thing';
+import { StyleSheet, SafeAreaView } from 'react-native';
+import { ThemeProvider } from 'react-native-elements';
 
 export default () => {
   return (
